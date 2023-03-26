@@ -1,0 +1,521 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    
+    
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #E3F2FD;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+}
+.main{
+    background-color: #18273f;
+    max-width: 100%;
+    height: 20vh;
+}
+.main1 a{
+    font-size: xx-large;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    position: relative;
+    top: 25px;
+
+}
+.main1 p{
+    color: white;
+    position: relative;
+    left: 45px;
+    margin-top: 20px;
+}
+.main2 a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    position: relative;
+    left: 40%;
+}
+.pre{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./image/pexels-karolina-grabowska-6328872.jpg);
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+
+    
+    
+}
+.pre h5{
+    width: 100%;
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: left;
+    font-weight: lighter;
+    position: relative;
+    left: 5%;
+    bottom: -15%;
+}
+.pre h1{
+    width: 100%;
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: left;
+    font-weight: lighter;
+    position: relative;
+    left: 12%;
+    bottom: -15%;
+}
+.pre p{
+    width: 35%;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    position: relative;
+    left: 14%;
+    bottom: -15%;
+}
+.pre a{
+    text-decoration: none;
+    background-color: #18273f;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    padding: 10px;
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+.pre2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+
+     
+}
+.info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    margin: 20px;
+    font-size: 10px;
+    text-align: center;
+    
+}
+.n1-bar{
+    width: 80%;
+    height: 30vh;
+    border: 2px solid lightgray;
+    background-color: #18273f;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 10%;
+    font-size: 10px;
+    text-align: center;
+    color: #f5f5f5;
+    margin: 20px;
+}
+.n2-bar{
+    width: 80%;
+    height: 30vh;
+    border: 2px solid lightgray;
+    background-color: #18273f;
+    color: white;
+    padding-top: 90px;
+    border-radius: 20px;
+    position: relative;
+    left: 10%;
+    font-size: 10px;
+    text-align: center;
+    margin: 20px;
+
+}
+.n3-bar{
+    width: 80%;
+    height: 30vh;
+    border: 2px solid lightgray;
+    background-color: #18273f;
+    color: white;
+    padding-top: 90px;
+    border-radius: 20px;
+    position: relative;
+    left: 10%;
+    font-size: 10px;
+    text-align: center;
+    margin: 20px;
+
+}
+.n4-bar{
+    width: 80%;
+    height: 30vh;
+    border: 2px solid lightgray;
+    background-color: #18273f;
+    color: white;
+    padding-top: 90px;
+    border-radius: 20px;
+    position: relative;
+    left: 10%;
+    font-size: 10px;
+    text-align: center;
+    margin: 20px;
+
+}
+.n1-bar p{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+.n2-bar p{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+    padding: 10px;
+}
+.n3-bar p{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+    padding: 10px;
+}
+.n4-bar p{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+    padding: 10px;
+}
+.form{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20%;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    font-size: small;
+    color: #18273f;
+    position: relative;
+    left: 20%;
+}
+.rib input{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30%;
+    width: 248px;
+    margin: auto;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 25px;
+
+}
+.sex{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 2%;
+    width: 248px;
+    margin: auto;
+    outline: none;
+    padding: 10px;
+    
+}
+.nib input{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30%;
+    width: 500px;
+    margin: auto;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 25px;
+
+
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+
+}
+.btn{
+    padding: 10px 60px;
+    background: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 30px;
+    position: relative;
+    left: 65%;
+}
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: relative;
+    top: 1%;
+    left: 75%;
+    color: #333;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: tranform 0.4s, top o.4s;
+
+}
+.open-popup{
+    visibility: visible;
+    top: 1%;
+    position: relative;
+    transform: translate(-50%, -50%) scale(1);
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+}   
+.c-bar{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    top: 20%;
+    
+}
+.c1-bar{
+    background-image: url(./image/pexels-jonathan-borba-14891563.jpg);
+    width: 60%;
+    height: 25vh;
+    background-color: white;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    object-fit: contain;
+    position: relative;
+    left: 50%;
+}
+.c2-bar{
+    background-image: url(./image/pexels-karolina-grabowska-5980886.jpg);
+    width: 60%;
+    height: 25vh;
+    background-color: white;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    object-fit: contain;
+    position: relative;
+    left: 25%;
+}
+.c3-bar{
+    background-image: url(./image/pexels-alesia-kozik-6778650.jpg);
+    width: 60%;
+    height: 25vh;
+    background-color: white;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    object-fit: contain;
+}
+.c4-bar{
+    background-image: url(./image/pexels-rodnae-productions-8370486.jpg);
+    width: 60%;
+    height: 25vh;
+    background-color: white;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    object-fit: contain;
+    position: relative;
+    right: 80px;
+}
+.tx-bar{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    position: relative;
+    bottom: 60px;
+    margin: 20px;
+}
+.x4-bar{
+    font-size: x-small;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    left: 40%;
+    bottom: 35%;
+
+
+} 
+.x1-bar{
+    font-size: xx-small;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    left: 10%;
+    bottom: 35%;
+
+}
+.x2-bar{
+    font-size: xx-small;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    right: 12%;
+    bottom: 35%;
+    
+
+}
+.x3-bar{
+    font-size: xx-small;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    right: 35%;
+    bottom: 35%;
+    
+}
+.footer{
+    width: 100%;
+    background-color: #18273f;
+    color: white;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.footer h1{
+    font-size: large;
+    color: white;
+    padding-bottom: 10px;
+    position: relative;
+    left: 20px;
+
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    padding: 18px;
+}
+.foot2-bar h2{
+    font-size: large;
+    padding: 20px;
+}
+.foot2-bar i{
+    position: relative;
+    right: -2%;
+    padding: 10px;
+    font-size: x-large;
+}
+.foot2-bar h5{
+    padding: 30px;
+    position: relative;
+    right: 3px;
+    bottom: -40%;
+}
+@media only screen and (max-width: 700px){
+    .main1 a{
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+}
